@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+    color: antiquewhite;
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+header{
+    background-color: rgb(8, 8, 8);
+}
+nav a{
+    color: antiquewhite;
+}
+#img1,#img2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+.e{
+    text-align: center;
+    font-size:larger;
+}
+.f,.g{
+    text-align: justify;
+}
+.z{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.w{ 
+    background-color: orangered;
+}
+.x{
+    background-color: orangered;
+}
+.y{
+    background-color: red;
+}
+.v{
+    background-color: red;
+}
+footer{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    padding: 5px;
+}
+h1:hover{
+    color: red;
+    text-shadow: 5px 5px 5px;
+}
+button:hover{
+              color: palevioletred;
+              background-color: black;
+
+}
+header nav a:hover{
+
+                     color: rgb(241, 176, 10);
+}
